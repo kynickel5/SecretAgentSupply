@@ -116,7 +116,7 @@ header{
 #content{
   display: flex;
   justify-content: space-between;
-  margin: 0 6rem;
+  margin: 0 6.1rem;
   margin-bottom: 4rem;
 }
 
@@ -130,4 +130,25 @@ header{
   padding: 1rem 2rem;
   color: white;
   background-color: black;
+}
+
+/*Footer Content */
+#footer{
+  height: 5rem;
+  width: 100%;
+  background-color: black;
+  display: flex;
+}
+
+#footer footer{
+  text-align: left;
+  margin-left: 6.1rem;
+  align-items: center;
+  height: 100%;
+  display: flex;
+}
+
+#footer footer h3{
+  color: white;
+  align-items: center;
 }
