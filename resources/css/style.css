@@ -111,3 +111,23 @@ header{
   background-color: black;
   color: white;
 }
+
+/* Bottom Content */
+#content{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 6rem;
+  margin-bottom: 4rem;
+}
+
+#content .element{
+  flex-basis: 35%;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+#content .element h3{
+  padding: 1rem 2rem;
+  color: white;
+  background-color: black;
+}
