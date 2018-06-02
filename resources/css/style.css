@@ -61,3 +61,21 @@ header{
 #title h1{
   font-size: 2rem;
 }
+
+/* Navigation Bar */
+#navigation{
+  background-color: firebrick;
+  padding: 0.75rem 0;
+}
+
+#navigation nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#navigation nav span a{
+  font-style: normal;
+  color: white;
+  text-decoration: none;
+}
