@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 18px;
+}
+
+#logo img{
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  margin-left: 5rem;
+}
+
+#logo{
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
